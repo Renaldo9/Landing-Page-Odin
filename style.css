@@ -4,8 +4,7 @@
 body{
     width: 100%;
     margin: 0;
-    padding: 0;
-    height: 100%;
+
 }
 
 header, footer {
@@ -19,9 +18,10 @@ a {
     font-size: 18px;
 }
 
-
+.section{
+    margin-top: 0;
+}
 .section, header, footer{
-    
     padding-left: 15%;
     padding-right: 15%;
 }
@@ -36,7 +36,13 @@ header{
 #links{
     display: flex;
     justify-content: right;
-    gap: 2%;
+    gap: 4%;
     min-width: 50%;
 
+}
+
+#section1{
+    background-color: #1F2937;
+    color: white;
+    margin-top: 0;
 }
